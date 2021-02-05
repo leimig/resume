@@ -1,7 +1,7 @@
-all: generate open
+all: build open
 
-generate:
-	- lualatex cv-en
+build:
+	- lualatex resume
 
 open:
-	- open cv-en.pdf
+	- open resume.pdf
